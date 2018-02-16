@@ -1,10 +1,10 @@
 ## Find Hints Challenge
 
-To get a collection, one can use db.db('<database name>').collection('<collection name>').
+To get a collection, one can use `db.db('<database name>').collection('<collection name>')`.
 
 ## Insert Hints Challenge
 
-To insert a document, one would need to call insertOne() on the collection, like this:
+To insert a document, one would need to call `insertOne()` on the collection, like this:
 
 
     // inserting document
@@ -19,7 +19,7 @@ To insert a document, one would need to call insertOne() on the collection, like
 
 ## Remove Hints Challenge
 
-To remove a document, one would need to call deleteOne() on the collection.
+To remove a document, one would need to call `deleteOne()` on the collection.
 
 Ex.
 
@@ -28,4 +28,4 @@ Ex.
       name: 'foo'
     }, callback)
 
-The first argument to deleteOne() is the query.
+The first argument to `deleteOne()` is the query.
